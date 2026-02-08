@@ -10,3 +10,4 @@ alias ll=ls -al
 
 # Activate virtual environment if .venv exists in current directory
 alias venv='[ -d .venv ] && source .venv/bin/activate || echo "No .venv directory found"'
+export PATH="$HOME/.local/bin:$PATH"
